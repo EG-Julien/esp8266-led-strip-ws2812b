@@ -109,8 +109,8 @@ void led_string_set(void) {
 
 static void wifi_init() {
     struct sdk_station_config wifi_config = {
-        .ssid = "Bénéhouse",
-        .password = "Cafsouris220",
+        .ssid = "ssid",
+        .password = "pass",
     };
 
     sdk_wifi_set_opmode(STATION_MODE);
